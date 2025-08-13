@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <style>
+      .card-description-scroll {
+    max-height: 100px;
+    overflow-y: auto;
+    font-size: 0.875rem;
+  }
+
+  .swiper-slide {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  @media (max-width: 768px) {
+    .swiper-slide .p-4 {
+      padding: 1rem !important;
+    }
+  }
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meet the founders of Inspired Grow Pvt. Ltd., whose struggles and vision built a commerce revolution.">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Iconsmind Icons -->
+    <link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="assets/vendor/node_modules/css/aos.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Master Slider -->
+    <link rel="stylesheet" href="assets/vendor/masterslider/style/masterslider.css">
+    <link rel="stylesheet" href="assets/vendor/masterslider/skins/black-1/style.css">
+
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/vendor/node_modules/css/swiper-bundle.min.css">
+    <!-- Main CSS -->
+    <link href="assets/css/theme.min.css" rel="stylesheet">
+
+    <title>Meet Our Founders - Inspired Grow Pvt. Ltd.</title>
+  </head>
+  <body>
+    <!-- Preloader Spinner -->
+    <div class="spinner-loader bg-primary text-white">
+      <div class="spinner-border" role="status"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header-transparent sticky-fixed">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-link-white">
+        <div class="navbar-fixed-bg position-absolute"></div>
+        <div class="container position-relative z-1">
+          <a class="navbar-brand" href="index.html">
+            <span class="fs-4 fw-bold text-dark navbar-brand-sticky">Inspired Grow</span>
+            <span class="fs-4 fw-bold text-white navbar-brand-transparent">Inspired Grow</span>
+          </a>
+          <div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">
+            <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i></i></span>
+            </button>
+            <div class="nav-item me-3 ms-lg-3 ms-xl-5 me-lg-0">
+              <a href="#" class="btn btn-success btn-sm">Purchase</a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="mainNavbarTheme">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">About</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="about-us.html">About Us</a>
+                  <a class="dropdown-item" href="our-mission.html">Our Mission</a>
+                  <a class="dropdown-item" href="our-vision.html">Our Vision</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">Team</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item active" href="meet-founders.html">Meet Founders</a>
+                  <a class="dropdown-item" href="advisers.html">Advisers</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">Portfolio</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="grocery-on-wheels.html">Grocery on Wheels</a>
+                  <a class="dropdown-item" href="core-services.html">Core Services</a>
+                  <a class="dropdown-item" href="upcoming-projects.html">Upcoming Projects</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="position-relative overflow-hidden">
+        <div class="ms-skin-black-1 master-slider" id="masterslider">
+          <div class="ms-slide bg-dark" data-delay="3" data-fill-mode="fill">
+            <img class="opacity-25" src="assets/vendor/masterslider/style/blank.gif" alt="" title=""
+              data-src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" />
+            <div class="ms-layer ms-title text-white" data-effect="front(800)" data-duration="1200" data-delay="600"
+              data-ease="easeInOutCubic" data-hide-effect="top(long,false)" data-offset-x="0" data-offset-y="-40"
+              data-origin="mc" data-position="center" data-masked="false">
+              <div class="text-center">Meet Our Founders<br>From Struggle to Success</div>
+            </div>
+            <a href="#founders" class="ms-layer ms-btn" data-effect="front(800)" data-duration="1200" data-delay="800"
+              data-ease="easeInOutCubic" data-hide-effect="top(long,false)" data-offset-x="0" data-offset-y="140"
+              data-origin="mc" data-position="center" data-masked="false">
+              <span class="btn btn-lg btn-primary btn-sm">Meet Our Visionaries</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+   <!-- Founder Profiles Section -->
+      <section class="position-relative bg-body" id="founders">
+        <div class="container py-9 py-lg-11">
+          <div class="row mb-7 justify-content-center align-items-end">
+            <div class="col-lg-8 text-center">
+              <div class="mb-3" data-aos="fade-up">
+                <span class="h6 text-body-secondary">Our Visionaries</span>
+              </div>
+              <h2 class="display-5 mb-0" data-aos="fade-up">Founder Profiles</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="d-flex flex-column flex-lg-row" data-aos="fade-up" data-aos-delay="100">
+                <!-- Left Side: Vertical Nav Tabs with Photos -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <ul class="nav nav-pills flex-column" id="founderTabs" role="tablist">
+                    <li class="nav-item mb-2" role="presentation">
+                      <button class="nav-link active d-flex align-items-center w-100 text-start p-3 rounded-3" id="Jane-tab" data-bs-toggle="tab" data-bs-target="#Jane-pane" type="button" role="tab" aria-controls="Jane-pane" aria-selected="true">
+                        <img src="assets/images/WhatsApp Image 2025-05-08 at 5.21.08 PM.jpeg" alt="keshav singla" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                          <h6 class="mb-0">Keshav Singla</h6>
+                          <small class="text-body-secondary">Founder</small>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="nav-item mb-2" role="presentation">
+                      <button class="nav-link d-flex align-items-center w-100 text-start p-3 rounded-3" id="priya-tab" data-bs-toggle="tab" data-bs-target="#priya-pane" type="button" role="tab" aria-controls="priya-pane" aria-selected="false">
+                        <img src="" alt="ashish singla" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                          <h6 class="mb-0">Ashish Singla</h6>
+                          <small class="text-body-secondary">Founder</small>
+                        </div>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Right Side: Tab Content -->
+                <div class="col-lg-8">
+                  <div class="tab-content" id="founderTabsContent">
+                    <!-- keshav singla Tab -->
+                    <div class="tab-pane fade show active" id="Jane-pane" role="tabpanel" aria-labelledby="Jane-tab" tabindex="0">
+                      <div class="card border-0 rounded-3 p-4">
+                        <h4 class="mb-3" data-aos="fade-up" data-aos-delay="150">Keshav Singla, Founder</h4>
+                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">
+                          Keshav Singla brings a sharp entrepreneurial mindset shaped by his background in commerce and over 8 years of hands-on experience in retail marketing and vendor onboarding for major e-commerce platforms. Growing up amidst the struggles of small retailers, Keshav developed a strong vision—to bridge the opportunity gap between local vendors and organized commerce.
+                          </p>
+                        <p class="mb-4" data-aos="fade-up" data-aos-delay="250">
+                          At Inspired Grow Pvt. Ltd., he leads strategic innovation, drives technology-enabled ventures like Grocery on Wheels, and focuses on building scalable, sustainable platforms that uplift local economies. His mission is rooted in empowering grassroots entrepreneurs with digital tools and market access.
+                          </p>
+                        <h5 class="mb-3" data-aos="fade-up" data-aos-delay="300">Message from Keshav</h5>
+                        <p class="mb-4 text-body-secondary" data-aos="fade-up" data-aos-delay="350">
+                          "We’re here to bridge the gap between small vendors and large opportunities. Inspired Grow is not just a company—it's a catalyst for inclusive growth and sustainable commerce across India. My dream is to become the second late Shri Ratan Tata—building businesses that empower millions and leave a legacy of compassion and innovation."
+                          </p>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                          <a href="https://linkedin.com" class="text-primary me-2" aria-label="Jane Sharma LinkedIn"><i class="bi bi-linkedin fs-5"></i></a>
+                          <a href="https://twitter.com" class="text-primary" aria-label="Jane Sharma Twitter"><i class="bi bi-twitter-x fs-5"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ashish singla Tab -->
+                    <div class="tab-pane fade" id="priya-pane" role="tabpanel" aria-labelledby="priya-tab" tabindex="0">
+                      <div class="card border-0 rounded-3 p-4">
+                        <h4 class="mb-3" data-aos="fade-up" data-aos-delay="150">Ashish Singla, Founder</h4>
+                        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">
+                          Ashish Singla brings over 25 years of expertise in sales, marketing, and business development, with a strong foundation built through years of experience in the printing and manufacturing industries. Known for his strategic foresight and executional discipline, Ashish plays a vital role in operations and expansion planning at Inspired Grow.
+                          </p>
+                        <p class="mb-4" data-aos="fade-up" data-aos-delay="250">
+                          With a deep understanding of on-ground logistics and market behavior, Ashish oversees vendor partnerships, supply chain integration, and retail optimization. His leadership ensures that every initiative—from Grocery on Wheels to future ventures—is grounded in operational excellence and community relevance.
+                          </p>
+                        <h5 class="mb-3" data-aos="fade-up" data-aos-delay="300">Message from Ashish</h5>
+                        <p class="mb-4 text-body-secondary" data-aos="fade-up" data-aos-delay="350">
+                          "At Inspired Grow, we don’t just build ventures—we solve real problems. My focus has always been on execution, sustainability, and impact. Together, we’re laying the foundation for a smarter, more inclusive future for Indian commerce."
+                          </p>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                          <a href="https://linkedin.com" class="text-primary me-2" aria-label="Priya Mehta LinkedIn"><i class="bi bi-linkedin fs-5"></i></a>
+                          <a href="https://twitter.com" class="text-primary" aria-label="Priya Mehta Twitter"><i class="bi bi-twitter-x fs-5"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Founder Profiles Section -->
+
+      <!-- Journey Slider Section -->
+      <section class="position-relative bg-body-tertiary overflow-hidden">
+        <div class="container py-9 py-lg-11">
+          <div class="row mb-7 justify-content-center align-items-end">
+            <div class="col-lg-8 text-center">
+              <div class="mb-3" data-aos="fade-up">
+                <span class="h6 text-body-secondary">Our Path</span>
+              </div>
+              <h2 class="display-5 mb-0" data-aos="fade-up">Their Journey</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="swiper journey-slider" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1516321310764-8a2388150e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Early Struggles" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2017: Seeds of Hustle</h5>
+                        <p class="mb-0 card-description-scroll">
+                          Before founding Inspired Grow, Keshav and Ashish immersed themselves in grassroots business challenges. Working independently across retail and supply chain roles, they gained real-world experience and built deep market insights. These early hustles shaped their understanding of the challenges faced by local vendors and consumers alike.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="First Failure" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2018: Learning Through Setbacks</h5>
+                        <p class="mb-0 card-description-scroll">
+                          Their first entrepreneurial venture, though ambitious, fell short due to funding gaps and infrastructure constraints. Rather than deter them, this setback instilled vital lessons in resilience, strategic execution, and customer-centric design—paving the way for something greater.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Founding Inspired Grow" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2021: Birth Of Inspired Grow Pvt. Ltd.</h5>
+                        <p class="mb-0 card-description-scroll">
+                          Armed with hard-earned insights, the duo launched Inspired Grow Pvt. Ltd. with a mission to create scalable, tech-enabled ventures that empower local communities and simplify daily living. The company was born out of purpose, not just profit.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Grocery on Wheels" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2021: Launch Of Grocery on Wheels-- First Van</h5>
+                        <p class="mb-0 card-description-scroll">
+                          Inspired Grow rolled out its flagship initiative—Grocery on Wheels, a mobile retail solution that brought daily essentials directly to customers’ doorsteps. This innovative van-based model disrupted traditional grocery delivery by merging convenience, accessibility, and community reach.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Grocery on Wheels" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2023: Second Retail Van Deployed</h5>
+                        <p class="mb-0 card-description-scroll">
+                          With increasing traction and strong word-of-mouth, operations scaled up with the launch of a second delivery van. This expansion significantly increased service coverage, enabling the team to serve a broader base of residential communities efficiently.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Grocery on Wheels" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2025: Funding Drive Intiated</h5>
+                        <p class="mb-0 card-description-scroll">
+                          To capitalize on growing market potential, Inspired Grow launched its first formal funding campaign. The goal: to enhance logistics, scale technology infrastructure, and accelerate multi-city growth of Grocery on Wheels and future ventures.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="position-relative">
+                      <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Grocery on Wheels" class="img-fluid rounded-3">
+                      <div class="position-absolute bottom-0 start-0 w-100 bg-primary bg-opacity-75 text-white p-4">
+                        <h5 class="mb-2 text-white">2025: Grocery On Wheel App(Comming Soon)</h5>
+                        <p class="mb-0 card-description-scroll">
+                          In a move to boost digital convenience, the Grocery on Wheels mobile app is set to launch—equipped with features like live tracking, seamless ordering, personalized offers, and instant support. This will enhance the customer experience while streamlining operations.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            new Swiper('.journey-slider', {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              breakpoints: {
+                768: {
+                  slidesPerView: 2,
+                },
+                992: {
+                  slidesPerView: 3,
+                },
+              },
+            });
+          });
+        </script>
+      </section>
+      <!-- End Journey Slider Section -->
+
+      <!-- Impact Highlights Section -->
+      <section class="position-relative bg-body">
+        <div class="container py-9 py-lg-11">
+          <div class="row mb-7 justify-content-center align-items-end">
+            <div class="col-lg-8 text-center">
+              <div class="mb-3" data-aos="fade-up">
+                <span class="h6 text-body-secondary">Their Legacy</span>
+              </div>
+              <h2 class="display-5 mb-0" data-aos="fade-up">Impact Highlights</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5 mb-5" data-aos="zoom-in" data-aos-delay="100">
+              <div class="position-relative highlight-image">
+                <img src="https://images.unsplash.com/photo-1523240791917-b2f37656dc6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Community Empowerment" class="img-fluid rounded-3">
+                <div class="position-absolute top-0 start-0 w-100 h-100 border-4 border-primary rounded-3 animate-border"></div>
+                <div class="mt-3">
+                  <h5 class="mb-2">Empowering Local Economies</h5>
+                  <p class="mb-0">
+                    Inspired Grow has enabled thousands of small retailers to scale their operations digitally. By integrating local stores with tech-enabled logistics, they’ve democratized commerce across Tier II and Tier III cities.
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 mb-5" data-aos="zoom-in" data-aos-delay="150">
+              <div class="position-relative highlight-image">
+                <img src="https://images.unsplash.com/photo-1516321310764-8a2388150e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Tech Innovation" class="img-fluid rounded-3">
+                <div class="position-absolute top-0 start-0 w-100 h-100 border-4 border-primary rounded-3 animate-border"></div>
+                <div class="mt-3">
+                  <h5 class="mb-2">Tech-Driven Innovation</h5>
+                  <p class="mb-0">
+                    From mobile-first platforms to smart inventory management, the founders have championed innovative solutions that simplify operations for vendors and consumers alike.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>
+          .highlight-image .animate-border {
+            animation: pulse-border 2s infinite;
+          }
+          @keyframes pulse-border {
+            0% { border-color: var(--bs-primary); }
+            50% { border-color: transparent; }
+            100% { border-color: var(--bs-primary); }
+          }
+        </style>
+      </section>
+      <!-- End Impact Highlights Section -->
+
+      <!-- Call to Action Section -->
+      <section class="position-relative bg-body-tertiary border-top overflow-hidden">
+        <div class="container py-9 py-lg-11 position-relative">
+          <div class="row pb-7 position-relative">
+            <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+              <h2 class="mb-4 display-5 fw-lighter" data-aos="fade-down">
+                Connect with <span class="fw-bolder d-inline-block pb-1 position-relative text-primary">Our Founders</span>
+              </h2>
+              <p class="mb-5 px-lg-7 lead" data-aos="zoom-in" data-aos-delay="100">
+                Keshav and Ashish are always open to ideas, partnerships, and collaborations that align with their mission of empowering small businesses and transforming local commerce in India.
+                </p>
+              <div data-aos="fade-up" data-aos-delay="150">
+                <a href="contact.html" class="btn btn-primary btn-hover-arrow btn-lg">
+                  <span>Get in Touch</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg class="position-absolute start-0 bottom-0 flip-y" style="color: var(--bs-dark);" width="100%" height="36"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 152" fill="none" preserveAspectRatio="none">
+          <path
+            d="M126.597 138.74C99.8867 127.36 76.6479 109.164 59.2161 85.9798L0 3.05176e-05L1440 0C1440 0 1419.98 25.8404 1380.15 32.9584L211.382 150.811C182.549 154.283 153.308 150.12 126.597 138.74Z"
+            fill="currentColor" />
+        </svg>
+      </section>
+      <!-- End Call to Action Section -->
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark footer position-relative" data-bs-theme="dark">
+      <div class="container pt-9 pt-lg-11">
+        <div class="row">
+          <div class="col-md-12 col-lg-4 mb-5 h-100 me-auto">
+            <h2 class="display-6 text-white mb-0 position-relative">Work with us</h2>
+            <div class="pt-3">
+              <a class="link-underline link-light fs-5" href="mailto:info@inspiredgrow.com">info@inspiredgrow.com</a>
+            </div>
+            <div class="d-inline-flex width-13x align-items-center dropup mt-6">
+              <button class="btn border text-body p-0 width-3x height-3x d-flex justify-content-center align-items-center"
+                id="assan-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                <span class="theme-icon-active d-flex align-items-center">
+                  <i class="bi align-middle"></i>
+                </span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="assan-theme" style="--bs-dropdown-min-width: 9rem;">
+                <li class="mb-1">
+                  <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light">
+                    <span class="theme-icon d-flex align-items-center">
+                      <i class="bi bi-sun align-middle me-2"></i>
+                    </span>
+                    Light
+                  </button>
+                </li>
+                <li class="mb-1">
+                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                    <span class="theme-icon d-flex align-items-center">
+                      <i class="bi bi-moon align-middle me-2"></i>
+                    </span>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+                    <span class="theme-icon d-flex align-items-center">
+                      <i class="bi bi-paint-bucket align-middle me-2"></i>
+                    </span>
+                    Auto
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-2 mb-5 mb-md-0 ms-auto h-100">
+            <h6 class="small mb-3 mb-lg-4 text-white-50">Learn</h6>
+            <ul class="nav flex-column mb-0">
+              <li class="nav-item"><a class="nav-link" href="#!">Ventures</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Technology</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Innovation</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Impact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Community</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-lg-2 mb-5 h-100">
+            <h6 class="small mb-3 mb-lg-4 text-white-50">Resources</h6>
+            <ul class="nav flex-column mb-0">
+              <li class="nav-item"><a class="nav-link" href="#!">Case Studies</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Press</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Support</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-lg-3 col-xl-2 mb-5 mb-sm-0 h-100">
+            <h6 class="small mb-3 mb-lg-4 text-white-50">Company</h6>
+            <ul class="nav flex-column mb-0">
+              <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Careers</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Terms of Use</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="mb-5 mt-0 text-white">
+      </div>
+      <div class="pb-5">
+        <div class="container">
+          <div class="row justify-content-md-between align-items-center">
+            <div class="d-flex mb-3 mb-md-0 col-sm-6 col-md-4">
+              <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-facebook">
+                <i class="bi bi-facebook fs-6"></i>
+                <i class="bi bi-facebook fs-6"></i>
+              </a>
+              <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-twitter">
+                <i class="bi bi-twitter-x fs-6"></i>
+                <i class="bi bi-twitter-x fs-6"></i>
+              </a>
+              <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-linkedin">
+                <i class="bi bi-linkedin fs-6"></i>
+                <i class="bi bi-linkedin fs-6"></i>
+              </a>
+              <a href="#!" class="d-inline-block text-white mb-1 si rounded-pill si-hover-instagram">
+                <i class="bi bi-instagram fs-6"></i>
+                <i class="bi bi-instagram fs-6"></i>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 text-sm-end">
+              <span class="d-block lh-sm small text-white-50">© Copyright
+                <script>document.write(new Date().getFullYear())</script>. Inspired Grow Pvt. Ltd.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Back to Top Button -->
+    <a href="#" class="toTop">
+      <svg class="progress-circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="4" stroke-dasharray="0, 251.2"></circle>
+      </svg>
+      <i class="bi bi-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="assets/js/theme.bundle.min.js"></script>
+    <!-- Master Slider -->
+    <script src="assets/vendor/node_modules/js/jquery.min.js"></script>
+    <script src="assets/vendor/masterslider/jquery.easing.min.js"></script>
+    <script src="assets/vendor/masterslider/masterslider.min.js"></script>
+    <script>
+      var slider = new MasterSlider();
+      slider.setup('masterslider', {
+        width: 1140,
+        height: 660,
+        minHeight: 400,
+        space: 0,
+        start: 1,
+        grabCursor: false,
+        layout: "fullwidth",
+        wheel: false,
+        autoplay: true,
+        instantStartLayers: true,
+        loop: true,
+        view: "basic",
+        instantStartLayers: true,
+      });
+      slider.control('arrows');
+    </script>
+    <!-- Swiper Slider -->
+    <script src="assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
+  </body>
+</html>
